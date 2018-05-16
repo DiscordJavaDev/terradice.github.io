@@ -13,20 +13,6 @@ header, footer {
 	<title>Downloads</title>
 </head>
 <body style="background-color:powderblue;">
-<script>
-function ClickerDownload() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.clicker) {
-            localStorage.clicker = Number(localStorage.clicker)+1;
-        } else {
-            localStorage.clicker = 1;
-        }
-        document.getElementById("result").innerHTML = "Downloads:" + localStorage.clicker + " time(s).";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-}
-</script>
 <header>
 	<a href="index" class="myButton">Home</a>
 	<a href="social" class="myButton">Social Media</a>
@@ -37,7 +23,7 @@ function ClickerDownload() {
 <b style="font-size:125%;"> C++ </b>
 <ul>
   <li><a href="https://terradice.github.io/ClickerbyTzlil.rar" download="ClickerbyTzlil.rar">
-  <input onclick="clickCounter()" type="button" value="Keyboard Clicker" /></a><div id="result"></div></li>
+  <input type="button" value="Keyboard Clicker" /></a><div id="result"></li>
   <li><a href="https://terradice.github.io/ScreenBlurrer.rar" download="ScreenBlurrer.rar">
   <input type="button" value="Screen Blurrer" /></a></li>
   <li><a href="https://terradice.github.io/AlarmClock.rar" download="AlarmClock.rar">
