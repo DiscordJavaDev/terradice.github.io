@@ -1,17 +1,21 @@
 <html>
 <head>
 	<title></title>
-	<meta http-equiv="Refresh" content="N;url=https://terradice.github.io/about">
 </head>
 <body>
 <form action="/action_page.php">
   <input type="file" name="pic" accept="image/*">
 </form>
 	
-<p><input name="MemeWatch" type="button" value="Watch Memes" /></p>
-<p><input name="MemeUpload" type="submit" value="Upload Memes" onclick="myFunction()" /></p>
+<p><input name="MemeWatch" type="button" value="Watch Memes" onclick="myFunction()" /></p>
+<p><input name="MemeUpload" type="submit" value="Upload Memes" /></p>
 
-<script
+<script>
+function myFunction() {
+    location.href = 'https://terradice.github.io/about';
+}
+</script>
+
 <p>&nbsp;</p>
 </body>
 </html>
