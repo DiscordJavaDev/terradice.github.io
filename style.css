@@ -1,3 +1,11 @@
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: left;
+}
+
 a:link {
 color: blue;
 text-decoration: underline;
@@ -9,12 +17,4 @@ text-decoration: underline;
 a:hover {
 color: red;
 text-decoration: none;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: left;
 }
